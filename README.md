@@ -22,6 +22,8 @@ work with, especially if they've never used Clojure.
 
 ## Usage
 
+[![Clojars Project](https://img.shields.io/clojars/v/simple-query.svg)](https://clojars.org/simple-query)
+
 Use the function `sql-server-conn` with a connection string to create
 a map holding all the database information with `(sql-server-conn
 users-db)`. The argument should be a jdbc style connection string of
